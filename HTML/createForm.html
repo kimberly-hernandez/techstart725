@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Request Form</title>
+</head>
+<body>
+    <h1>Information Request</h1>
+
+    <div style="border-width:thin">
+        <form action ="fakePage.html" method ="POST">
+
+            <label for="textInput">First Name:</label><br>
+        <input type="text" id="textInput" name="textInput" required /> <br />
+        <label for="textInput">Last Name:</label><br>
+        <input type="text" id="textInput" name="textInput" required /> <br />
+        <label for="textInput">Phone:</label><br>
+        <input type="text" id="textInput" name="textInput" required /> <br />
+        </form>
+
+        <h2>Best time to call:</h2>
+        <label for="stateSelect">Select a Time:</label><br />
+            <select id="stateSelect" name="stateSelect" multiple>
+                <option value="">--Please choose a time--</option>
+                <option value="fl">Morning (8 AM to 12 PM Eastern</option>
+                <option value="ind">Afternoon (12 PM to 4 PM Eastern)</option>
+                <option value="ky">Evening (4 PM to 8 PM Eastern</option>
+            </select>
+           
+        <h3>I am interested in (check all that apply)</h3>
+        <input type="checkbox" id="soup" name="myChoices" value="soup" checked />
+        <label for="soup">Frontend Web Development</label> <br />
+        <input type="checkbox" id="salad" name="myChoices" value="salad" checked />
+        <label for="salad">Backend Web Development</label> <br />
+        <input type="checkbox" id="fries" name="myChoices" value="fries" />
+        <label for="fries">Database Design</label> <br />
+
+
+       <p> <h4>Additional Information:</h4>
+        <label for="description"></label><br />
+        <textarea id="description" name="description" rows="6" cols="50"></textarea> <br />
+        
+        <input type="submit" value="Submit" />
+
+    </div>
+    
+</body>
+</html>
