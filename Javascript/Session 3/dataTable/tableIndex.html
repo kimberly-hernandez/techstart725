@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Data</title>
+    <style>
+      h1 {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 75%;
+        margin: 1rem auto;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Customer Data</h1>
+    <table id="table-data">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Customer Number</th>
+          <th>Phone Number</th>
+        </tr>
+        <tbody id=table-body></tbody>
+      </thead>
+    </table>
+  </body>
+  <script  src="table.js"></script>
+</html>
